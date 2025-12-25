@@ -202,6 +202,14 @@ body {
   display: block;
   margin: auto;
 }
+canvas.canvas{
+  position: fixed !important;
+  inset: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 999999 !important;
+  pointer-events: none;
+}
 </style>
 </head>
 <body>
@@ -1662,3 +1670,4 @@ init();
 <script src="js/index.js"></script>
 </body>
 </html>
+
